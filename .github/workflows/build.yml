@@ -27,3 +27,5 @@ jobs:
           git-config-email: <>
           branch: gh-pages
           folder: output
+          clean-exclude: |
+            CNAME
