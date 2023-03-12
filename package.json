@@ -4,7 +4,7 @@
   "description": "A somewhat dumb but effective feed reader (RSS, JSON & Twitter)",
   "type": "module",
   "engines": {
-    "node": ">=12.x"
+    "node": ">=16.x"
   },
   "main": "src/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "httpie": "^1.1.2",
-    "rss-parser": "^3.6.3",
+    "rss-parser": "^3.12.0",
     "yeahjs": "^0.3.0"
   }
 }
